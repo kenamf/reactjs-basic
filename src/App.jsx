@@ -5,9 +5,9 @@ function App() {
   return (
     <>
       <div>
-        <Article />
-        <Article />
-        <Article />
+        <Article name="Fatur" titles={["Reactjs", "Nextjs", "Nodejs"]} />
+        <br />
+        <Article name="Kenam" titles={["Vuejs", "Nuxtjs", "Deno"]} />
       </div>
     </>
   );
